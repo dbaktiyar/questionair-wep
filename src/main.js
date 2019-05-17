@@ -10,6 +10,25 @@ Vue.use(Vuetify)
 
 Vue.config.productionTip = false
 
+// new Vue({
+//   el: '#app',
+//   router,
+//   store,
+//   components: {
+//     App
+//   },
+//   template: '<App/>',
+//   methods: {
+//     checkSignUp () {
+//       if (this.$store.getters.checkAuth) {
+//         this.$router.push('/login')
+//       } else {
+//         this.$router.push('/applications')
+//       }
+//     }
+//   }
+// })
+
 new Vue({
   router,
   store,

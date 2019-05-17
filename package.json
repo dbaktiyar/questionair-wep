@@ -10,10 +10,14 @@
   },
   "dependencies": {
     "@salesforce-ux/design-system": "^2.8.3",
+    "axios": "^0.18.0",
     "vue": "^2.5.22",
+    "vue-axios": "^2.1.4",
     "vue-router": "^3.0.1",
+    "vuelidate": "^0.7.4",
     "vuetify": "^1.3.0",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuex-persistedstate": "^2.5.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
